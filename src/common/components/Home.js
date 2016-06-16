@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Card from './Card/Card.js';
 
 class Home extends Component {
 
@@ -6,7 +7,7 @@ class Home extends Component {
     return (
 
       	<div className="posts">
-  
+  			<Card/>
   			<div className="post">
 			    <h1 className="post-title">Introducing Redux Universal example</h1>
     			<p>The theme has been based on <a href="http://lanyon.getpoole.com/">Lanyon</a> which in turn is based on <a href="http://getpoole.com">Poole</a>.</p>
